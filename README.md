@@ -22,7 +22,7 @@ A comprehensive educational platform backend built with Express, TypeScript, Pos
 
 - Node.js 18+
 - Docker and Docker Compose
-- npm or yarn
+- npm
 
 ### Installation
 
