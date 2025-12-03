@@ -20,7 +20,7 @@ A comprehensive educational platform backend built with Express, TypeScript, Pos
 
 ### Prerequisites
 
-- Node.js 18+
+- Node.js 18
 - Docker and Docker Compose
 - npm
 
