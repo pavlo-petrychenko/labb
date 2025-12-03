@@ -6,7 +6,7 @@ This document presents the performance comparison results between PostgreSQL and
 
 The following performance summary shows the results of running various database operations on both PostgreSQL and MongoDB with a dataset of 10,000+ records.
 
-![Performance Summary](./Screenshot%202025-12-03%20at%2020.38.19.png)
+![Performance Summary](./perfomance-screen.png)
 
 ## Summary Statistics
 

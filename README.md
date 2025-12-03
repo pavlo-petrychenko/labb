@@ -12,7 +12,7 @@ npm run build
 node dist/scripts/performance-comparison.js
 ```
 
-![Performance Summary](./Screenshot%202025-12-03%20at%2020.38.19.png)
+![Performance Summary](./docs/perfomance-screen.png)
 
 
 ## Features
