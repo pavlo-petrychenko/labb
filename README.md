@@ -2,6 +2,19 @@
 
 A comprehensive educational platform backend built with Express, TypeScript, PostgreSQL, MongoDB, and TypeORM.
 
+
+## Performance Comparison
+
+Run performance comparison tests:
+
+```bash
+npm run build
+node dist/scripts/performance-comparison.js
+```
+
+![Performance Summary](./Screenshot%202025-12-03%20at%2020.38.19.png)
+
+
 ## Features
 
 - **15+ Entities**: Users, roles, courses, modules, lessons, assignments, submissions, grades, enrollments, course materials, attendance, comments, notifications, audit logs
@@ -142,11 +155,3 @@ MongoDB is used for:
 2. **Course Analytics**: Flexible analytics data
 3. **Student Learning Paths**: Document-based learning progress
 
-## Performance Comparison
-
-Run performance comparison tests:
-
-```bash
-npm run build
-node dist/scripts/performance-comparison.js
-```
