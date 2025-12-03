@@ -1,0 +1,45 @@
+{
+  "name": "educational-platform-api",
+  "version": "1.0.0",
+  "description": "Educational Platform API with Express, TypeScript, PostgreSQL, MongoDB, TypeORM",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "start:dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "migration:generate": "typeorm-ts-node-commonjs migration:generate",
+    "migration:run": "typeorm-ts-node-commonjs migration:run",
+    "migration:revert": "typeorm-ts-node-commonjs migration:revert",
+    "schema:sync": "typeorm-ts-node-commonjs schema:sync"
+  },
+  "keywords": [
+    "express",
+    "typescript",
+    "postgresql",
+    "mongodb",
+    "typeorm"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.11.3",
+    "typeorm": "^0.3.17",
+    "reflect-metadata": "^0.1.13",
+    "mongodb": "^6.3.0",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "bcryptjs": "^2.4.3",
+    "class-validator": "^0.14.0",
+    "class-transformer": "^0.5.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.10.5",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cors": "^2.8.17",
+    "typescript": "^5.3.3",
+    "ts-node-dev": "^2.0.0"
+  }
+}
+
